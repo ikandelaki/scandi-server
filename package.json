@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/main.js",
   "scripts": {
-    "build": "node dist/main.js",
+    "build": "node",
     "start": "node dist/main.js"
   },
   "keywords": [],
