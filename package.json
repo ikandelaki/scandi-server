@@ -2,10 +2,11 @@
   "name": "junior-test-endpoint",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/main.js",
+  "main": "src/main.ts",
   "scripts": {
-    "build": "node",
-    "start": "node dist/main.js"
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/main.js\""
   },
   "keywords": [],
   "author": "",
